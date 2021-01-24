@@ -9,17 +9,204 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* стили для блока header */
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color:  #f2f2f2;
+}
+
+.header__title {
+  width: 730px;
+  margin: 0;
+  padding: 0;
+  margin-left: 64px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+  z-index: 3;
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  z-index: 3;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+}
+
+/*------------------------------------------------*/
+
+/* стили для блока logo */
+
+.logo {
+  position: absolute;
+  z-index: 3;
+}
+
+.logo_place_header {
+  top: 30px;
+  left: 64px;
+}
+
+/*------------------------------------------------*/
+
+/* стили для блока description */
+
+.description {
+  margin: 0;
+  padding: 100px 0;
+}
+
+/*------------------------------------------------*/
+
+/* стили для блока two-columns */
+
+.two-columns {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief {
+  margin: 0;
+  padding: 0;
+  width: 175px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.two-columns__span-accent {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
+}
+/*------------------------------------------------*/
+
+/* стили для блока digits */
+
+.digits {
+  margin: 0;
+  padding: 0 0 100px 0;
+}
+
+/*------------------------------------------------*/
+
+/* стили для блока section-title */
+
+.section-title {
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+  width: 60%;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+/*------------------------------------------------*/
+
+/* стили для блока section-subtitle */
+
+.section-subtitle {
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+/*------------------------------------------------*/
+
+/* стили для блока table */
+
+.table {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table_theme_dark {
+  color: white;
+}
+
+.table__cell {
+  width: 250px;
+  margin: 60px 0 0 0;
+  padding: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,3 +216,29 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.table__heading {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text {
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+.table__text_theme_dark {
+  color: white;
+}
+
+/*------------------------------------------------*/
