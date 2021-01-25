@@ -90,7 +90,7 @@
 
 .description {
   margin: 0;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 
 /*------------------------------------------------*/
@@ -146,7 +146,7 @@
 
 .digits {
   margin: 0;
-  padding: 0 0 100px 0;
+  padding: 100px 0 100px 0;
 }
 
 /*------------------------------------------------*/
@@ -164,7 +164,9 @@
 }
 
 .section-title_theme_dark {
+  position: relative;
   color: white;
+  z-index: 5;
 }
 
 /*------------------------------------------------*/
@@ -182,7 +184,9 @@
 }
 
 .section-subtitle_theme_dark {
+  position: relative;
   color: white;
+  z-index: 5;
 }
 
 /*------------------------------------------------*/
@@ -201,6 +205,7 @@
 
 .table_theme_dark {
   color: white;
+  counter-reset: heading;
 }
 
 .table__cell {
@@ -215,6 +220,7 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 5;
 }
 
 .table__heading {
@@ -229,6 +235,11 @@
   color: white;
 }
 
+.table__heading_theme_dark::before {
+  counter-increment: heading;
+  content: counter(heading);
+}
+
 .table__text {
   margin: 20px 0 0 0;
   padding: 0;
@@ -239,6 +250,77 @@
 
 .table__text_theme_dark {
   color: white;
+}
+
+/*------------------------------------------------*/
+
+/* стили для блока freyman */
+
+.feynman {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  position: relative;
+  height: 790px;
+
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  background-position: left bottom;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 0 auto;
+  padding: 100px 0 70px 0;
+  text-align: center;
+
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  right: 48px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+/*----------------------------*/
+
+/* стили для блока kaufman */
+
+.kaufman {
+  margin: 0;
+  padding: 90px 0;
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -10px;
+  right: -210px;
+  z-index: 0;
 }
 
 /*------------------------------------------------*/
