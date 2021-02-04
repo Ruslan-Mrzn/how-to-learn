@@ -6,24 +6,6 @@
 
 /* стили для блока logo */
 
-.logo {
-  margin: 0;
-  padding: 0;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  width: 183px;
-  height: 32px;
-  z-index: 3;
-}
-
-.logo_place_footer {
-  width: 183px;
-  height: 35px;
-}
 
 /*------------------------------------------------*/
 
