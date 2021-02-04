@@ -1,0 +1,15 @@
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link:hover {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color:  #2f80ed;
+  color: #f2f2f2;
+}
+
+.header__link:active {
+  opacity: .5;
+}
