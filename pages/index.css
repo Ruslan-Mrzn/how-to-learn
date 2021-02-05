@@ -28,6 +28,20 @@
 /*--------------------------*/
 
 
+/* Стили блока techniques */
+@import url(../blocks/techniques/techniques.css);
+/*--------------------------*/
+
+
+/* Стили блока cards */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+/*--------------------------*/
+
+
 /* Стили блока two-columns */
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
