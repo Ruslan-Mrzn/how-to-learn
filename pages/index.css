@@ -49,12 +49,25 @@
 /*--------------------------*/
 
 
+/* Стили блока oakley */
+@import url(../blocks/oakley/oakley.css);
+/*--------------------------*/
+
+
 /* Стили блока two-columns */
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+/*--------------------------*/
+
+
+/* стили для блока feynman */
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
 /*--------------------------*/
 
 
@@ -84,14 +97,6 @@
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
-/*--------------------------*/
-
-
-/* стили для блока feynman */
-@import url(../blocks/feynman/feynman.css);
-@import url(../blocks/feynman/__title/feynman__title.css);
-@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
-@import url(../blocks/feynman/__link/feynman__link.css);
 /*--------------------------*/
 
 
