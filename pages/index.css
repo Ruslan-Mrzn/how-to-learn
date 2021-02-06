@@ -42,6 +42,13 @@
 /*--------------------------*/
 
 
+/* Стили блока video */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+/*--------------------------*/
+
+
 /* Стили блока two-columns */
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
