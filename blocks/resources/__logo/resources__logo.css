@@ -1,6 +1,7 @@
 .resources__logo {
   margin: 0;
   padding: 0;
-  width: 25%;
+  flex-basis: 270px;
+  flex-grow: 1;
   height: 38px;
 }
