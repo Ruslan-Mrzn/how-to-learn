@@ -1,0 +1,14 @@
+.resources__logo-link {
+  display: block;
+  margin: 0;
+  padding: 0;
+  transition: opacity .5s ease;
+}
+
+.resources__logo-link:hover {
+  opacity: .5;
+}
+
+.resources__logo-link:active {
+  background-color: #1f1f1f;
+}

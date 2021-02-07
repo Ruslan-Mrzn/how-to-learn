@@ -6,12 +6,13 @@
   line-height: 30px;
   font-weight: normal;
   color: white;
+  transition: opacity .5s ease;
 }
 
 .footer__column-link:hover {
-  color: #2f80ed;
+  opacity: .5;
 }
 
 .footer__column-link:active {
-  opacity: .5;
+  color: #2f80ed;
 }

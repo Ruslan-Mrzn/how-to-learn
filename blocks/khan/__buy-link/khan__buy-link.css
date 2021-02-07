@@ -7,4 +7,16 @@
   line-height: 42px;
   font-weight: normal;
   align-self: start;
+  transition: opacity .5s ease;
+}
+
+.khan__buy-link:hover {
+  opacity: .5;
+}
+
+.khan__buy-link:active {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #2f80ed;
+  color: #f2f2f2;
 }

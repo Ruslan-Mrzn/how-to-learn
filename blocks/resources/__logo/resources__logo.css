@@ -1,13 +1,6 @@
 .resources__logo {
-  display: block;
   margin: 0;
   padding: 0;
-}
-
-.resources__logo img {
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  width: 25%;
   height: 38px;
-  object-fit: contain;
 }
